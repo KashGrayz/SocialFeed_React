@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CreatePostForm from './Components/CreatePostForm/CreatePostForm.jsx';
 import NavBar from './Components/NavBar/NavBar.jsx'
-import UserPosts from './Components/UserPosts/UserPosts.jsx';
+import PostList from './Components/PostList/PostList.jsx';
 
 
 function App() {
@@ -24,8 +24,10 @@ function App() {
         <CreatePostForm addNewPostProperty={addNewPost} />
       </div>
       <div>
-        <UserPosts parentPost={posts} />
+        <PostList parentPost={posts} />
+
       </div>
+      
     </div>
   );
 }

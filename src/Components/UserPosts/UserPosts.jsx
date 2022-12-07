@@ -1,20 +1,18 @@
+import React from 'react';
 
-
-const UserPosts = (props) => {
-
-
+function UserPosts(props) {
     return (
         <div>
-            {props.parentPost.map((el)=>{
-                return(
-                    <div>
-                        <h2>{el.name}</h2>
-                        <p>{el.comment}</p>
-                    </div>
-                )
-            })}
+            <div>
+                <h3>{props.post.name}</h3>
+                <p>{props.post.comment}</p>
+            </div>
+            <div>
+                
+            </div>
         </div>
     );
+    
 }
 
 export default UserPosts;

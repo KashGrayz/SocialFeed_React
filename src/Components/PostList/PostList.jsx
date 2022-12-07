@@ -1,11 +1,21 @@
+import React from 'react';
+import UserPosts from '../UserPosts/UserPosts.jsx'
 
-const PostList = (props) => {
+function PostList(props){
+
     return (
         <div>
-            <UserPost post = {el}/> 
+            {props.posts.map((el)=>{
+                return(
+                    <div>
+                        <UserPosts posts ={el}/>
+                    </div>
+                )
+                
+            })};
         </div>
-         
-         
+        
     );
-
 }
+
+export default PostList;
