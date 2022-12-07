@@ -1,14 +1,13 @@
 import React from 'react';
+import PostButton from '../PostButton/PostButton';
 
-function UserPosts(props) {
+const UserPosts = (props) => {
     return (
         <div>
             <div>
-                <h3>{props.post.name}</h3>
-                <p>{props.post.comment}</p>
-            </div>
-            <div>
-                
+                <h3>{props.posts.name}</h3>
+                <p>{props.posts.comment}</p>
+                <PostButton/>
             </div>
         </div>
     );

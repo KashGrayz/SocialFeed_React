@@ -25,9 +25,7 @@ function App() {
       </div>
       <div>
         <PostList parentPost={posts} />
-
       </div>
-      
     </div>
   );
 }
