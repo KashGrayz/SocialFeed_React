@@ -1,4 +1,4 @@
-
+//Creates a Navigation Bar for the Web Page
 
 const Navbar = (props) => {
 
