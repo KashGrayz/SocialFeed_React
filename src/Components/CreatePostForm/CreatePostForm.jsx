@@ -1,5 +1,5 @@
 // Creates the frame for Creating New Posts
-
+import './/CreateNewForm.css'
 import React, { useState } from 'react';
 
 const CreatePostForm = (props) => {
@@ -18,16 +18,16 @@ const CreatePostForm = (props) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
+        <form onSubmit={handleSubmit} className='form-grid'>
+            <div className='form-group'>
                 <lable>Name</lable>
-                <input type='text' value={name} onChange={(event) => setName(event.target.value)} />
+                <input className="form-control" type='text' value={name} onChange={(event) => setName(event.target.value)} />
             </div>
-            <div>
+            <div className='form-group'>
                 <label>Comment</label>
-                <input type='text' value={comment} onChange={(event) => setComment(event.target.value)} />
+                <input className="form-control" type='text' value={comment} onChange={(event) => setComment(event.target.value)} />
             </div>
-            <button type='submit'>Buzz</button>
+            <button className='btn btn-primary buzz' style={{'margin-top': '1em'}} type='submit'>Buzz!</button>
         </form>
     )
 }

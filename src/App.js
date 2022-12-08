@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CreatePostForm from './Components/CreatePostForm/CreatePostForm.jsx';
 import NavBar from './Components/NavBar/NavBar.jsx'
 import PostList from './Components/PostList/PostList.jsx';
+import '../src/App.css'
 
 
 function App() {
@@ -20,11 +21,17 @@ function App() {
       <div>
         <NavBar />
       </div>
-      <div>
-        <CreatePostForm addNewPostProperty={addNewPost} />
-      </div>
-      <div>
-        <PostList parentPost={posts} />
+      <div className='container-fluid'>
+        <div className='col-md-6'>
+          <div className='border-box'>
+            <CreatePostForm addNewPostProperty={addNewPost} />
+          </div>
+        </div>
+        <div className='col-md-6'>
+          <div className='border-box'>
+            <PostList parentPost={posts} />
+          </div>
+        </div>
       </div>
     </div>
   );

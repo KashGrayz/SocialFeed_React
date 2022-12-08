@@ -13,7 +13,7 @@ const PostButton = (props) => {
         if(likeClass === "inactive"){
             setLikeClass("active");
         }
-        else {
+        else if (likeClass === "active") {
             setDislikeClass("inactive");
         }
 
@@ -24,14 +24,16 @@ const PostButton = (props) => {
     function handleDislike(){
 
         if(dislikeClass === "inactive"){
-            setDislikeClass("active");
+            setDislikeClass("active1");
         }
-        else {
+        else if (dislikeClass === "active1") {
             setLikeClass("inactive");
         }
+            
+    }
 
 
-    }   
+      
         return (
             <div className='container'>
                 <div>

@@ -1,0 +1,43 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+
+
+button:hover {
+    box-shadow: 0 12px 16em 0 rgb(0, 0, 0, ), 0 17px 50px 0 rgba(0, 0, 0, );
+}
+
+body {
+    position: relative;
+    margin-top: 10rem;
+    font-size: 16px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffcc66 0%, #ffffff 82%)
+
+}
+
+.active{
+    background-color: rgb(63, 151, 245);
+}
+
+
+.active1{
+    background-color: rgb(234, 15, 59);
+}
+
+
+.buzz {
+    color: gold;
+    background-color: black;
+}
+
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 5rem;
+    padding: 1em;
+}
