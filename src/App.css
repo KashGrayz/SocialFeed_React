@@ -32,6 +32,7 @@ body {
 .buzz {
     color: gold;
     background-color: black;
+    height: 2rem;
 }
 
 .border-box {
@@ -40,4 +41,5 @@ body {
     border-color: black;
     margin: 5rem;
     padding: 1em;
+    background-color: #fdf0d6;
 }
