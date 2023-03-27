@@ -1,5 +1,5 @@
 * {
-margin: 0;
+margin: 1rem;
 padding: 0;
 
 }
@@ -15,7 +15,15 @@ body {
     margin-top: 10rem;
     font-size: 16px;
     height: 100vh;
-    background: linear-gradient(to bottom, #ffcc66 0%, #ffffff 82%)
+    background-image: url("./sam-balye-k5RD4dl8Y1o-unsplash.jpg");
+    background-blend-mode: multiply;
+  background-size:contain;
+  overflow-y: auto;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overscroll-behavior: none;
+  position: relative;
 
 }
 
