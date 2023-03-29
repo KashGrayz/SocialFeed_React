@@ -2,12 +2,15 @@ header{
     position: fixed;
     top:0;
     width: 100%;
-    background-color: rgba(147, 147, 147, 0.815);
+    background-color: rgba(43, 43, 42, 0.768);
     border-image: linear-gradient(45deg,rgb(162, 243, 243), rgb(226, 105, 226)) 90;
-    border-width: 5px;
+    border-width: 3px;
     border-style: solid;
     border-top: 0ch;
     border-left: 0ch;
+    height: 7rem;
+    align-items: center;
+    
 }
 
 li{
@@ -31,7 +34,7 @@ li{
 
 .navbar{
     width: 100%;
-    height: 1rem;
+    height: .75rem;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +46,7 @@ li{
 
 .nav-branding{
     display: flex;
-    font-size: 5rem;
+    font-size: 3rem;
     align-items: baseline;
 }
 
