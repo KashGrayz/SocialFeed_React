@@ -1,12 +1,14 @@
 
 .form-grid{
     display: grid;
-    
+    color:aliceblue
 }
 
 .form-control{
-    align-items: center;
-    height: 4rem;
-    width: 10rem;
-    margin: 1rem;
+   align-items: center;
+   margin: 10px;
+   padding: 5px;
+   width:80%;
+
 }
+

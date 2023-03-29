@@ -48,10 +48,15 @@ li{
     display: flex;
     font-size: 3rem;
     align-items: baseline;
+    color: aliceblue;
 }
 
 @media(max-width:1280px){
     .container{
         width:100%
     }
+}
+
+.nav-icon{
+    color: aliceblue;
 }

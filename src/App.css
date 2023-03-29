@@ -37,13 +37,31 @@ body {
     color: gold;
     background-color: black;
     height: 2rem;
+    width: 30%;
+    margin:auto
 }
 
 .border-box {
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    margin: 5rem;
+    margin: auto;
+    margin-bottom: 1rem;
     padding: 1em;
-    background-color: #fdf0d6;
+    background-color: rgba(27, 27, 26, 0.922);
+    width: 65%;
+    backdrop-filter: blur(6px);
+    background-origin: border-box;
+    border-image: linear-gradient(45deg,rgb(162, 243, 243), rgb(226, 105, 226)) 90;
+    border-width: 2px;
+    border-style:ridge;
+    border-radius: 15px; 
+    border-left: 0ch;
+    border-right:0ch;
+;
+} 
+
+div > h3 {
+    color: aliceblue;
+}
+
+div > p {
+    color: orange;
 }
