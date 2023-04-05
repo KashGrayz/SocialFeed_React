@@ -24,7 +24,7 @@ const CreatePostForm = (props) => {
                 <input className="form-control" type='text' value={name} onChange={(event) => setName(event.target.value)} />
             </div>
             <div className='form-group'>
-                <label>Comment</label>
+                <label>Post</label>
                 <input className="form-control" type='text' value={comment} onChange={(event) => setComment(event.target.value)} />
             </div>
             <button className='btn btn-primary buzz' style={{'margin-top': '1em'}} type='submit'>Buzz!</button>

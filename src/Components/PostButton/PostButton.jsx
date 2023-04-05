@@ -9,24 +9,23 @@ const PostButton = (props) => {
     const [dislikeClass, setDislikeClass] = useState("inactive")
 
     function handleLike(){
-
         if(likeClass === "inactive"){
             setLikeClass("active");
+            setDislikeClass("inactive")
         }
         else if (likeClass === "active") {
             setDislikeClass("inactive");
         }
-
-
     }   
         
 
     function handleDislike(){
-
+        setDislikeClass("active")
         if(dislikeClass === "inactive"){
-            setDislikeClass("active1");
+            setDislikeClass("active-dislike");
+            setLikeClass("inactive")
         }
-        else if (dislikeClass === "active1") {
+        else if (dislikeClass === "inactive") {
             setLikeClass("inactive");
         }
             

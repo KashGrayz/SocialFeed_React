@@ -10,6 +10,7 @@ header{
     border-left: 0ch;
     height: 7rem;
     align-items: center;
+    z-index: 1;
     
 }
 

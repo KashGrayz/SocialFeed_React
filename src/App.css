@@ -3,7 +3,8 @@
 
 
 button:hover {
-    box-shadow: 0 12px 16em 0 rgb(0, 0, 0, ), 0 17px 50px 0 rgba(0, 0, 0, );
+   color: rgb(220, 151, 33);
+   background-color: black;
 }
 
 body {
@@ -13,29 +14,32 @@ body {
     height: 100vh;
     background-image: url("./sam-balye-k5RD4dl8Y1o-unsplash.jpg");
     background-blend-mode: multiply;
-  background-size:contain;
-  overflow-y: auto;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  overscroll-behavior: none;
-  position: relative;
+    background-size:contain;
+    overflow-y: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overscroll-behavior: none;
+    position: relative;
 
 }
 
 .active{
-    background-color: rgb(63, 151, 245);
+    background-color: rgb(63, 245, 81);
+    border: none
 }
 
 
-.active1{
+.active-dislike{
     background-color: rgb(234, 15, 59);
+    border: none
 }
 
 
 .buzz {
     color: gold;
     background-color: black;
+    border-radius: 10px;
     height: 2rem;
     width: 30%;
     margin:auto
@@ -65,3 +69,4 @@ div > h3 {
 div > p {
     color: orange;
 }
+
